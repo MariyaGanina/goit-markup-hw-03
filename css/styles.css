@@ -1,0 +1,244 @@
+:root {
+  --primary-text-color: #212121;
+  --ordinary-text-color: #757575;
+  --accent-color: #2196f3;
+  --back-color: #ffffff;
+  --studio-black: #000000;
+  --back-section-color: #2f303a;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --button-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--back-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+/* Лого */
+
+.logo {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.studio-black {
+  color: var(--studio-black-black);
+}
+
+.studio-white {
+  color: var(--back-color);
+}
+
+/* Меню */
+
+.list {
+  list-style: none;
+}
+
+.decoration {
+  text-decoration: none;
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Контакти */
+
+.site-contacts .contact {
+  color: var(--ordinary-text-color);
+  text-decoration: none;
+}
+
+.site-contacts .contact:hover,
+.site-contacts .contact:focus {
+  color: var(--accent-color);
+}
+
+/* Заголовки */
+
+.features .title {
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.hero-title {
+  color: var(--back-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.feature-list .title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Текст */
+
+.main-text {
+  color: var(--ordinary-text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.promotion-text {
+  color: var(--ordinary-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.name-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.hero-text {
+  background-color: var(--back-section-color);
+}
+
+.portfolio-text {
+  color: var(--ordinary-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Кнопки */
+
+.hero-button {
+  color: var(--back-color);
+
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+
+.buttons .btn {
+  color: var(--primary-text-color);
+  background-color: var(--button-color);
+
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+}
+
+.buttons .btn:hover,
+.buttons .btn:focus {
+  color: var(--back-color);
+  background-color: var(--accent-color);
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--back-section-color);
+}
+
+.address {
+  color: var(--back-color);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.footer-contacts {
+  color: var(--footer-contact-color);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+.our-team {
+  background-color: var(--button-color);
+}
+
+.employee {
+  background-color: var(--back-color);
+}
